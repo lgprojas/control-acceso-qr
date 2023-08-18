@@ -1,0 +1,331 @@
+﻿/* 
+-----------------------------------
+Documento CSS
+lgpRojas checktool
+-----------------------------------
+*/
+*{
+margin:0px;
+padding: 0px;
+}
+
+img {
+border:0px;
+} 
+
+body{
+	margin: 0;
+	background: #F5DEB3;
+	font-family: Microsoft, sans-serif;
+         font-size: 12px;
+}
+
+select { 
+  font-family: Microsoft, sans-serif;
+  font-size: 12px;
+  color: #888;
+  background-color: white;
+}
+
+
+
+h1,h2,h3,h4 {
+	text-shadow: 0 2px 0 #FFFFFF;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px silver solid;
+}
+
+td, th {
+    padding: 3px 6px;
+}
+
+td {
+    text-align: left;
+    vertical-align: top;
+}
+
+ul {
+	list-style: circle;
+}
+
+a {
+	color: #045FB4;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#main{
+	position: relative;
+	margin: 0 auto 0 auto;
+	width: 900px;
+	padding-top: 20px;
+}
+
+#header{
+	width: 900px;
+	height: 100px;
+}
+
+#logo{
+	width: 270px;
+	float: left;
+	margin: 0;
+	padding: 10px 10px 10px 20px;
+	height: 80px;
+}
+
+#logo h1{
+	color: #FFFFFF;
+	line-height: 60px;
+	text-shadow: 0 0 0;
+	margin: 0;
+}
+
+#menu{
+	width: 580px;
+	height: 80px;
+	float: left;
+	margin: 0;
+	padding: 10px;
+}
+
+#content{background: #999999;
+	color: #6E6E6E;
+	width: 830px;
+        position: relative;
+	padding: 0px 20px 20px 50px;
+	background: white;
+	font-family: "Trebuchet MS", sans-serif;
+	border-radius: 10px;
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	overflow: hidden;
+}
+
+#content h1, h2 {
+	color: #0B3861;
+}
+
+#top_menu{
+	height: 60px;
+	position: relative;
+	width: 530px;
+	margin: 0 auto 0 auto;
+	color: white;
+	overflow: hidden;
+	text-transform: uppercase;
+	background: url(../img/menu_background_1.jpg) repeat-x;
+	border-radius: 5px;
+}
+
+#top_menu ul{
+	line-height: 60px;
+	margin: 0;
+	color: white;
+}
+
+#top_menu ul li{
+	display: inline;
+	margin-left: 15px;
+	padding-left: 15px;
+	border-left: 1px dashed;
+	color: white;
+}
+
+ #top_menu ul li:first-child {
+    border-left:none;
+	padding-left: 0;
+ }
+
+
+#top_menu ul li a{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#top_menu ul li a:hover{
+	text-decoration: underline;
+}
+
+#footer{
+	color: #FFFFFF;
+	width: 880px;
+	padding:10px;
+	text-align: center;
+}
+
+#top_menu ul li .current{
+	text-decoration: underline;
+}
+/*
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.button:active {
+	position:relative;
+	top:1px;
+}*/
+
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #c4daf5) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #c4daf5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#c4daf5');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #b8cce6;
+	display:inline-block;
+	color:#789bc2;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c4daf5), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #c4daf5 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c4daf5', endColorstr='#ededed');
+	background-color:#c4daf5;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+/*-------------------------------------------------------------*/
+.button2 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #c4daf5) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #c4daf5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#c4daf5');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #b8cce6;
+	display:inline-block;
+	color:#789bc2;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:1px 5px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+        cursor: pointer;
+}.button2:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c4daf5), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #c4daf5 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c4daf5', endColorstr='#ededed');
+	background-color:#c4daf5;
+}.button2:active {
+	position:relative;
+	top:1px;
+}
+
+/*----------------------------pestañas----------------------------------------*/
+
+.tabs { /* es el rectángulo contenedor */
+margin: 0 auto;
+min-height: 200px;
+position: relative;
+width: 550px;
+}
+.tab { /* cada una de las pestañas */
+float: left;
+}
+.tab label { /* la parte superior con el título de la pestaña */
+background-color: #456;
+border-radius: 5px 5px 0 0;
+box-shadow: -3px 3px 2px #678 inset;
+color: #DDD;
+cursor: pointer;
+left: 0;
+margin-right: 1px;
+padding: 5px 15px;
+position: relative;
+text-shadow: 1px 1px #000;
+}
+/* el control input sólo lo necesitamos para que las pestañas permanezcan abiertas así que lo ocultamos */
+.tab [type=radio] { display: none; }
+
+/* el contenido de las pestañas */
+.content {
+margin-left: -100px;
+background-color: #ededed;
+bottom: 0;
+left: 0;
+overflow: hidden;
+padding: 20px;
+position: absolute;
+right: 0;
+top: 23px;
+
+}
+/* y un poco de animación */
+.content > * {
+opacity: 0;
+
+-moz-transform: translateX(-100%);
+-webkit-transform: translateX(-100%);
+-o-transform: translateX(-100%);
+
+-moz-transition: all 0.6s ease;
+-webkit-transition: all 0.6s ease;
+-o-transition: all 0.6s ease;
+}
+
+/* controlamos la pestaña activa */
+[type="radio"]:checked ~ label {
+background-color: #ededed;
+box-shadow: 0 3px 2px #89A inset;
+color: #FFF;
+z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content { z-index: 1; }
+[type=radio]:checked ~ label ~ .content > * {
+opacity: 1;
+-moz-transform: translateX(0);
+-webkit-transform: translateX(0);
+-o-transform: translateX(0);
+-ms-transform: translateX(0);
+}
+

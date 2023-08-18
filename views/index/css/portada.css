@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /*font-family: Georgia;*/
+    /*color:white;*/
+}
+.caption p{
+  display:block;
+  position:absolute;
+  z-index:2;
+  text-align:center;
+  color:#fafafa;
+  width:60%;
+  font-size:20px;
+  left:20%;
+  right:20%;
+  top:35%;
+  margin:0;
+  max-width:none;
+  text-shadow:-1px -1px 10px #4d4d33, 1px 1px 10px #4d4d33, -1px 1px 10px #4d4d33, 1px -1px 10px #4d4d33;
+  box-sizing:border-box;
+}
+.caption h3{
+  background:rgba(2,191,119,0.75);
+  display:inline;
+  color:#fff;
+  padding:.5em .8em;
+  text-shadow:0 1px 3px rgba(0,0,0,0.4);
+  font-size:30px;
+  font-weight:400;
+  text-transform:uppercase;
+}
+.caption p{
+    margin-top: 30px;
+}
+a{
+	color: #505961;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+a:hover{
+	color: #2fb677;
+}
+
+section#contenedor{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    background-image: url("../../../public/img/slideshow/portada.png");
+    background-size: cover;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+section#body{
+    width: 100%;
+    min-height: 300px;
+    overflow: hidden;
+    /*background-color: red;*/
+}
+
+section#scrolldown{
+    margin:auto;
+    width: 200px;
+    height:60px;
+    /*background-color: green;*/
+}
+
+p#title {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+p#menorque{
+    -webkit-transform: rotate(270deg);
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.3em;
+        
+}
+
+section#seccion{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+/*.container{
+	width:1170px;
+	margin:0 auto;
+	padding: 0 15px;
+}*/
+
+/**TITULOS**/
+#seccion .titulos-wrap{
+    text-align: center;
+    padding: 20px 15px 40px;
+       
+}
+
+#seccion .titulos-wrap .titulo{
+    margin: 0;
+    padding: .2em 0 .2em;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #2fb677;
+}
+
+#seccion .titulos-wrap .subtitulo{
+    margin: 0;
+    padding: 0;
+    color: #7d8781;
+}
+
+/*Page Title*/
+.page_title{
+	background: #f5f5f5;
+	/*background: url('../img/pg_header.jpg') no-repeat top center;*/
+	box-shadow: 0 1px 6px rgba(0, 0, 0, .03) inset, 0 -1px 6px rgba(0, 0, 0, .03) inset;
+}
+.page_title .titles {
+	padding-left: 20px;
+}
+.titles-inverted .title, .titles-inverted .sub-title {
+	color: #fff;
+}
+
+/* SERVICIOS */
+.servicios{
+	padding:20px 0;
+        text-align: center;
+}
+.servicios .item{
+	width:380px;
+	padding:15px 15px;
+	float:left;
+	text-align:center;	
+}
+.servicios .item .icon{
+	margin:0 auto;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	border:1px solid #2fb677;
+        text-align:center;
+}
+.servicios .item .icon span{
+	line-height:100px;
+	text-align:center;	
+	-webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	-ms-transition:all .3s;
+	-o-transition:all .3s;
+	transition:all .3s;
+}
+.servicios .item header h3{
+	margin:0;
+	padding:10px 0 5px;
+        text-align:center;
+}
+.servicios .item header p{
+	margin:0;
+        text-align:center;
+}
+.servicios .item:hover .icon span,.servicios .item:hover header h3 a{
+	color:#2fb677;
+}
+
+/* FOOTER */
+.contactme{
+	width: 1170px;
+	padding: 40px 15px;
+	margin: 0 auto;
+}
+.contactme .left{
+	float: left;
+	width: 80%;
+}
+.contactme .right{
+	float: right;
+	width: 20%;
+}
+.contactme .dotted{
+	color: #505961;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.footer{
+	padding: 15px;
+	margin: 0;
+	text-align: center;
+	background: #505961;
+	color: white;
+}
+.footer p{
+	margin: 0;
+}
+.footer a{
+	color: #7d8781;
+}
+.footer a:hover{
+	color: #2fb677;
+}
